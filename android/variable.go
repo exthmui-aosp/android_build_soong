@@ -535,6 +535,8 @@ type ProductVariables struct {
 	ExthmDevice []string `json:",omitempty"`
 
 	ArtTargetIncludeDebugBuild *bool `json:",omitempty"`
+
+	SystemPropFiles []string `json:",omitempty"`
 }
 
 type PartitionQualifiedVariablesType struct {
